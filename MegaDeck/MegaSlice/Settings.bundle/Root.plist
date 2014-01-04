@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Loop Defaults</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>bars_per_loop</string>
+			<key>Title</key>
+			<string>Bars Per Loop</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Titles</key>
+			<array>
+				<string>4</string>
+				<string>2</string>
+				<string>1</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<real>4.0</real>
+				<real>2.0</real>
+				<real>1.0</real>
+			</array>
+			<key>DefaultValue</key>
+			<real>4.0</real>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

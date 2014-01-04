@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		
+		<key>default</key>
+		<string>Welcome to SuperStoke. This is help mode. Shake to make it appear. Shake to make it go away. 
+		
+Tap to show circles. Tap circles to find out about SuperStoke. Start with the center circle.
+		</string>
+		
+		<key>footer</key>
+		<string>* This is help mode. Shake to make it appear. Shake to make it go away. Tap to show circles. Tap circles to find out about SuperStoke. Disable help mode using the Settings application.
+		</string>
+		
+		<key>1</key>
+		<dict>
+			<key>x</key>
+			<real>140</real>
+			<key>y</key>
+			<real>348</real>
+			<key>text</key>
+			<string>The circle in the center is a blank event. Begin by dragging it into the surrounding area. This area represents a loop.
+				
+As you drag, the event will be opaque while in the area in which it can be placed. Drop it to create a new event. 
+				
+The distance from the center determines an event's likelihood of sounding. Near the center the event will rarely sound, while near the perimeter it will sound frequently. To make events always sound, tap PROB to disable probabilistic behavior.</string>
+		</dict>
+		
+		<key>2</key>
+		<dict>
+			<key>x</key>
+			<real>0</real>
+			<key>y</key>
+			<real>0</real>
+			<key>text</key>
+			<string>Channel buttons C0, C1, C2, and C3 select the current channel. Each channel consists of a loop and its parameters.</string>
+		</dict>
+		
+		<key>3</key>
+		<dict>
+			<key>x</key>
+			<real>40</real>
+			<key>y</key>
+			<real>0</real>
+			<key>text</key>
+			<string>The SRC button is used to access the audio loading and editing screen. There you can select the source audio for the selected channel.</string>
+		</dict>
+		
+		<key>4</key>
+		<dict>
+			<key>x</key>
+			<real>88</real>
+			<key>y</key>
+			<real>0</real>
+			<key>text</key>
+			<string>The LEVEL slider controls the selected channel's volume.
+				
+The MUTE button mutes the selected channel.
+				
+The PROB button can be used to disable probabilistic behavior for the selected channel. When this is disabled, button black, all events in the channel will sound.</string>
+		</dict>
+		
+		<key>5</key>
+		<dict>
+			<key>x</key>
+			<real>88</real>
+			<key>y</key>
+			<real>96</real>
+			<key>text</key>
+			<string>The fraction buttons determine loop quantization settings in the selected channel. Tap a button to set quantization for new events. Tap it twice to quantize existing events. Events remember their original position, so quantization settings are not destructive. 1/0 disables quantization.</string>
+		</dict>
+		
+		<key>6</key>
+		<dict>
+			<key>x</key>
+			<real>88</real>
+			<key>y</key>
+			<real>144</real>
+			<key>text</key>
+			<string>Tap an event to select it, showing the event controls.
+				
+VEL (named after MIDI velocity) determines an event's volume. DCY is decay, how long the event sounds. NOTE is the pitch of the event, and POS is the position in the audio source, relative to the START and END settings in the source screen accessed by SRC.
+				
+New events automatically interpolate the settings of their neighbors. For example, add events between a loud and a quiet event to create a crescendo.
+</string>
+		</dict>
+		
+		<key>7</key>
+		<dict>
+			<key>x</key>
+			<real>0</real>
+			<key>y</key>
+			<real>392</real>
+			<key>text</key>
+			<string>STOP and PLAY start and stop playback. The tempo control can be dragged up and down to change tempo. Tapping the tempo four or more times sets the tempo to match the tap rate.</string>
+		</dict>
+		
+		<key>8</key>
+		<dict>
+			<key>x</key>
+			<real>280</real>
+			<key>y</key>
+			<real>392</real>
+			<key>text</key>
+			<string>REC lets you record your performance. You can then EDIT the performance and save or copy it. Saved performances can be copied, emailed, or accessed via iTunes when your device is connected.</string>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'MegaDeck' target in the 'MegaDeck' project
+//
+
+#import <Availability.h>
+#import "MDHeader.pch"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+#endif
+
+#ifndef DEBUG
+#	define NSLog(...) /* */
+#endif
+
+#define MD_SHARE_MESSAGE	@"Check out this strange sound I made!"
+#define MD_FONT				[UIFont fontWithName:@"AkzidenzGrotesk-Roman" size:9]
+#define MD_FONT_LARGE		[UIFont fontWithName:@"AkzidenzGrotesk-Roman" size:16]
+
+#define MegaSlice			1
+#define MegaLayer			2
+#define MegaCurtis			3
+#define MegaCurtis_iPad		4
